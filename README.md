@@ -16,6 +16,10 @@ Then run the make file:
 		make build
 		make run
 
+Then execute the following command:
+
+        curl -H "Content-Type:application/json" -H "Accept:application/json" http://localhost:3000/clock/time_zones
+
 # Makefile commands
 
 	This make process supports the following targets:
