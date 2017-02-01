@@ -1,6 +1,7 @@
 # Introduction
 
-This is simply the sample API from [Seven Mobile Apps in Seven Weeks](https://pragprog.com/book/7apps/seven-mobile-apps-in-seven-weeks) in docker form.
+I wanted a simple way to run the sample server from the book [Seven Mobile Apps in Seven Weeks](https://pragprog.com/book/7apps/seven-mobile-apps-in-seven-weeks).  
+So this is simple [Docker](https://www.docker.com) container that implements the sample API server found in the book.
 
 # Setup
 
@@ -16,7 +17,7 @@ Then run the make file:
 		make build
 		make run
 
-Then execute the following command:
+To test the container you can execute the following command to get a list of time zones:
 
         curl -H "Content-Type:application/json" -H "Accept:application/json" http://localhost:3000/clock/time_zones
 

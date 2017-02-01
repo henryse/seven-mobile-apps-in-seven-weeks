@@ -1,6 +1,6 @@
 seven-mobile-apps-in-seven-weekse:
   image: henryse/seven-mobile-apps-in-seven-weeks:latest
   environment:
-      MAPQUEST_API_KEY: You Key Here
+      MAPQUEST_API_KEY: [put your key here]
   ports:
         - "3000:3000"
